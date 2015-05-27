@@ -1,0 +1,26 @@
+{
+  "name": "poirot",
+  "version": "0.1.0",
+  "description": "Solves cases. For strings. It converts strings between different cases, ie. from camelCase to spinal-case.",
+  "main": "string-helpers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodebureau/poirot.git"
+  },
+  "keywords": [
+    "String",
+    "JavaScript"
+  ],
+  "author": "The Code Bureau <info@thecodebureau.com> (https://thecodebureau.com)",
+	"contributors": [
+		"Linus Miller <linus.miller@thecodebureau.com>"
+	],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thecodebureau/poirot/issues"
+  },
+  "homepage": "https://github.com/thecodebureau/poirot#readme"
+}
