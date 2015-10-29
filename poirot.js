@@ -56,6 +56,11 @@ function spaceCase(str, capitals, divider) {
 	}).join(' ');
 }
 
+function capitalSpaceCase(str, divider) {
+	return spaceCase(str, true, divider);
+}
+
+
 module.exports = {
 	camelCase: camelCase,
 	dotCase: dotCase,
@@ -63,6 +68,7 @@ module.exports = {
 	spinalCase: spinalCase,
 	kebabCase: spinalCase,
 	snakeCase: snakeCase,
-	spaceCase: spaceCase
+	spaceCase: spaceCase,
+	capitalSpaceCase: capitalSpaceCase
 };
 
