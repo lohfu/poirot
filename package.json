@@ -1,7 +1,7 @@
 {
   "name": "poirot",
   "version": "0.1.1",
-  "description": "Solves cases. For strings. It converts strings between different cases, ie. from camelCase to spinal-case.",
+  "description": "Solves most cases. It converts strings between different cases, eg. from camelCase to kebab-case.",
   "main": "poirot.js",
   "scripts": {
     "test": "BABEL_ENV=test node test/index.js"
