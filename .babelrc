@@ -1,0 +1,16 @@
+{
+  "env": {
+    "test": {
+      "presets": [ "es2015-node6" ],
+      "plugins": [
+        "add-module-exports"
+      ]
+    },
+    "client": {
+      "presets": [ "es2015", "react" ],
+      "plugins": [
+        "add-module-exports"
+      ]
+    }
+  }
+}
